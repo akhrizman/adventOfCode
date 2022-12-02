@@ -11,7 +11,7 @@ import (
 var elfCalorieMap map[int]int
 
 func main() {
-	file, err := os.Open("2022/Day01/input")
+	file, err := os.Open("2022/day01/input")
 	if err != nil {
 		fmt.Println(err)
 	} else {
